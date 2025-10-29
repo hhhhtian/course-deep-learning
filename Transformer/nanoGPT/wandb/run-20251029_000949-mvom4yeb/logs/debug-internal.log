@@ -1,0 +1,11 @@
+{"time":"2025-10-29T00:09:49.924028483-05:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-29T00:09:50.128275113-05:00","level":"INFO","msg":"stream: created new stream","id":"mvom4yeb"}
+{"time":"2025-10-29T00:09:50.128399627-05:00","level":"INFO","msg":"handler: started","stream_id":"mvom4yeb"}
+{"time":"2025-10-29T00:09:50.129747572-05:00","level":"INFO","msg":"stream: started","id":"mvom4yeb"}
+{"time":"2025-10-29T00:09:50.129834018-05:00","level":"INFO","msg":"sender: started","stream_id":"mvom4yeb"}
+{"time":"2025-10-29T00:09:50.129752656-05:00","level":"INFO","msg":"writer: started","stream_id":"mvom4yeb"}
+{"time":"2025-10-29T00:10:14.824765322-05:00","level":"INFO","msg":"stream: closing","id":"mvom4yeb"}
+{"time":"2025-10-29T00:10:15.101655329-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-29T00:10:15.185661095-05:00","level":"INFO","msg":"handler: closed","stream_id":"mvom4yeb"}
+{"time":"2025-10-29T00:10:15.185884208-05:00","level":"INFO","msg":"sender: closed","stream_id":"mvom4yeb"}
+{"time":"2025-10-29T00:10:15.185904032-05:00","level":"INFO","msg":"stream: closed","id":"mvom4yeb"}

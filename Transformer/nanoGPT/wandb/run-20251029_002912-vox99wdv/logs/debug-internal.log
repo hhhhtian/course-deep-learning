@@ -1,0 +1,11 @@
+{"time":"2025-10-29T00:29:12.22185804-05:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-29T00:29:12.432472618-05:00","level":"INFO","msg":"stream: created new stream","id":"vox99wdv"}
+{"time":"2025-10-29T00:29:12.432602281-05:00","level":"INFO","msg":"handler: started","stream_id":"vox99wdv"}
+{"time":"2025-10-29T00:29:12.432895895-05:00","level":"INFO","msg":"stream: started","id":"vox99wdv"}
+{"time":"2025-10-29T00:29:12.43293441-05:00","level":"INFO","msg":"writer: started","stream_id":"vox99wdv"}
+{"time":"2025-10-29T00:29:12.43293584-05:00","level":"INFO","msg":"sender: started","stream_id":"vox99wdv"}
+{"time":"2025-10-29T00:29:54.735386339-05:00","level":"INFO","msg":"stream: closing","id":"vox99wdv"}
+{"time":"2025-10-29T00:29:54.978536321-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-29T00:29:55.061773705-05:00","level":"INFO","msg":"handler: closed","stream_id":"vox99wdv"}
+{"time":"2025-10-29T00:29:55.061953507-05:00","level":"INFO","msg":"sender: closed","stream_id":"vox99wdv"}
+{"time":"2025-10-29T00:29:55.061976225-05:00","level":"INFO","msg":"stream: closed","id":"vox99wdv"}

@@ -1,0 +1,11 @@
+{"time":"2025-10-29T00:48:06.452170735-05:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-29T00:48:06.634788341-05:00","level":"INFO","msg":"stream: created new stream","id":"e3usbcgy"}
+{"time":"2025-10-29T00:48:06.634856421-05:00","level":"INFO","msg":"handler: started","stream_id":"e3usbcgy"}
+{"time":"2025-10-29T00:48:06.635029863-05:00","level":"INFO","msg":"stream: started","id":"e3usbcgy"}
+{"time":"2025-10-29T00:48:06.635053737-05:00","level":"INFO","msg":"sender: started","stream_id":"e3usbcgy"}
+{"time":"2025-10-29T00:48:06.635071971-05:00","level":"INFO","msg":"writer: started","stream_id":"e3usbcgy"}
+{"time":"2025-10-29T00:48:39.168719742-05:00","level":"INFO","msg":"stream: closing","id":"e3usbcgy"}
+{"time":"2025-10-29T00:48:39.423649904-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-29T00:48:39.592390411-05:00","level":"INFO","msg":"handler: closed","stream_id":"e3usbcgy"}
+{"time":"2025-10-29T00:48:39.59251537-05:00","level":"INFO","msg":"sender: closed","stream_id":"e3usbcgy"}
+{"time":"2025-10-29T00:48:39.592527293-05:00","level":"INFO","msg":"stream: closed","id":"e3usbcgy"}

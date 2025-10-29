@@ -1,0 +1,11 @@
+{"time":"2025-10-28T23:55:19.234876126-05:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-28T23:55:19.446812452-05:00","level":"INFO","msg":"stream: created new stream","id":"ve92yatd"}
+{"time":"2025-10-28T23:55:19.446917334-05:00","level":"INFO","msg":"handler: started","stream_id":"ve92yatd"}
+{"time":"2025-10-28T23:55:19.447045588-05:00","level":"INFO","msg":"stream: started","id":"ve92yatd"}
+{"time":"2025-10-28T23:55:19.447103503-05:00","level":"INFO","msg":"sender: started","stream_id":"ve92yatd"}
+{"time":"2025-10-28T23:55:19.447106601-05:00","level":"INFO","msg":"writer: started","stream_id":"ve92yatd"}
+{"time":"2025-10-28T23:55:50.105496673-05:00","level":"INFO","msg":"stream: closing","id":"ve92yatd"}
+{"time":"2025-10-28T23:55:50.35840789-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-28T23:55:50.455751574-05:00","level":"INFO","msg":"handler: closed","stream_id":"ve92yatd"}
+{"time":"2025-10-28T23:55:50.455965912-05:00","level":"INFO","msg":"sender: closed","stream_id":"ve92yatd"}
+{"time":"2025-10-28T23:55:50.455987867-05:00","level":"INFO","msg":"stream: closed","id":"ve92yatd"}

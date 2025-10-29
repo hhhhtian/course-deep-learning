@@ -1,0 +1,50 @@
+{
+  "os": "Linux-6.8.0-51-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.10.19",
+  "startedAt": "2025-10-29T05:26:40.572621Z",
+  "args": [
+    "config/train_shakespeare/train_shakespeare_094.py"
+  ],
+  "program": "/home/mt1068@students.ad.unt.edu/code/course-deep-learning/Transformer/nanoGPT/train.py",
+  "codePath": "Transformer/nanoGPT/train.py",
+  "codePathLocal": "train.py",
+  "git": {
+    "remote": "https://github.com/hhhhtian/course-deep-learning.git",
+    "commit": "8f4fd164b6949be96e99dbfe03f2522550842a23"
+  },
+  "email": "menghantin@gmail.com",
+  "root": "/home/mt1068@students.ad.unt.edu/code/course-deep-learning/Transformer/nanoGPT",
+  "host": "ci-l-94cl144",
+  "executable": "/home/mt1068@students.ad.unt.edu/miniconda3/envs/nano/bin/python",
+  "cpu_count": 64,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA H100 NVL",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "1465680920576",
+      "used": "1208530235392"
+    }
+  },
+  "memory": {
+    "total": "269909037056"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA H100 NVL",
+      "memoryTotal": "100485038080",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-685d8fc7-5dd0-2a8e-bee8-6cbbb5f85bc5"
+    },
+    {
+      "name": "NVIDIA H100 NVL",
+      "memoryTotal": "100485038080",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-ab59e77a-87e7-1913-bb2f-460b5284e7cd"
+    }
+  ],
+  "cudaVersion": "12.2",
+  "writerId": "l04cbbxnp0mvurt4ws54upav82u87q1k"
+}

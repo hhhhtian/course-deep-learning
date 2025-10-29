@@ -1,0 +1,124 @@
+step 0: train loss 10.8575, val loss 10.8493
+Train/Val loss gap (overfitting indicator): 0.0081
+iter 0: loss 10.8464, time 8672.78ms, mfu -100.00%
+iter 10: loss 10.1727, time 5.46ms, mfu 2.91%
+iter 20: loss 9.6406, time 5.92ms, mfu 2.89%
+iter 30: loss 8.7212, time 6.48ms, mfu 2.85%
+iter 40: loss 7.8046, time 6.54ms, mfu 2.81%
+iter 50: loss 6.6871, time 6.85ms, mfu 2.76%
+iter 60: loss 6.3145, time 6.91ms, mfu 2.71%
+iter 70: loss 6.0910, time 8.78ms, mfu 2.62%
+iter 80: loss 6.0324, time 9.24ms, mfu 2.53%
+iter 90: loss 6.1332, time 9.29ms, mfu 2.45%
+iter 100: loss 6.4700, time 9.29ms, mfu 2.38%
+iter 110: loss 5.7677, time 10.42ms, mfu 2.29%
+iter 120: loss 5.8108, time 10.34ms, mfu 2.22%
+iter 130: loss 5.3268, time 11.82ms, mfu 2.13%
+iter 140: loss 5.3827, time 11.93ms, mfu 2.05%
+iter 150: loss 5.9396, time 11.97ms, mfu 1.98%
+iter 160: loss 5.1526, time 11.39ms, mfu 1.92%
+iter 170: loss 5.3391, time 11.40ms, mfu 1.87%
+iter 180: loss 5.2859, time 11.41ms, mfu 1.82%
+iter 190: loss 5.6944, time 11.31ms, mfu 1.78%
+iter 200: loss 5.5566, time 11.36ms, mfu 1.74%
+iter 210: loss 5.4106, time 11.37ms, mfu 1.71%
+iter 220: loss 5.6841, time 11.40ms, mfu 1.68%
+iter 230: loss 5.4490, time 11.40ms, mfu 1.65%
+iter 240: loss 5.4218, time 11.27ms, mfu 1.62%
+step 250: train loss 5.2793, val loss 5.5752
+Train/Val loss gap (overfitting indicator): -0.2959
+saving checkpoint to out-shakespeare
+iter 250: loss 5.4142, time 902.02ms, mfu 1.46%
+iter 260: loss 5.4756, time 4.39ms, mfu 1.68%
+iter 270: loss 5.5247, time 4.36ms, mfu 1.88%
+iter 280: loss 5.3147, time 4.31ms, mfu 2.06%
+iter 290: loss 4.8839, time 4.36ms, mfu 2.22%
+iter 300: loss 5.4799, time 4.32ms, mfu 2.36%
+iter 310: loss 4.7430, time 4.32ms, mfu 2.49%
+iter 320: loss 5.0962, time 4.30ms, mfu 2.62%
+iter 330: loss 5.1913, time 4.35ms, mfu 2.72%
+iter 340: loss 5.1639, time 4.33ms, mfu 2.81%
+iter 350: loss 5.6810, time 4.35ms, mfu 2.90%
+iter 360: loss 5.1516, time 4.34ms, mfu 2.98%
+iter 370: loss 4.8997, time 4.35ms, mfu 3.04%
+iter 380: loss 4.9555, time 4.34ms, mfu 3.11%
+iter 390: loss 4.8835, time 4.34ms, mfu 3.16%
+iter 400: loss 5.2962, time 4.34ms, mfu 3.21%
+iter 410: loss 4.9969, time 4.32ms, mfu 3.26%
+iter 420: loss 5.0549, time 4.31ms, mfu 3.30%
+iter 430: loss 4.8948, time 4.35ms, mfu 3.34%
+iter 440: loss 5.2464, time 4.32ms, mfu 3.37%
+iter 450: loss 5.4066, time 4.37ms, mfu 3.40%
+iter 460: loss 4.9792, time 4.33ms, mfu 3.43%
+iter 470: loss 5.0485, time 4.62ms, mfu 3.43%
+iter 480: loss 4.8007, time 5.18ms, mfu 3.39%
+iter 490: loss 4.3917, time 5.65ms, mfu 3.33%
+step 500: train loss 4.7470, val loss 5.1657
+Train/Val loss gap (overfitting indicator): -0.4187
+saving checkpoint to out-shakespeare
+iter 500: loss 4.6586, time 893.07ms, mfu 3.00%
+iter 510: loss 4.7331, time 8.16ms, mfu 2.90%
+iter 520: loss 5.0862, time 8.88ms, mfu 2.79%
+iter 530: loss 4.4089, time 10.02ms, mfu 2.67%
+iter 540: loss 4.4090, time 11.18ms, mfu 2.54%
+iter 550: loss 4.6913, time 11.26ms, mfu 2.43%
+iter 560: loss 5.3484, time 11.80ms, mfu 2.32%
+iter 570: loss 3.9386, time 11.71ms, mfu 2.23%
+iter 580: loss 4.1429, time 12.46ms, mfu 2.13%
+iter 590: loss 4.8867, time 12.55ms, mfu 2.04%
+iter 600: loss 4.5855, time 12.46ms, mfu 1.97%
+iter 610: loss 4.6544, time 12.46ms, mfu 1.90%
+iter 620: loss 4.7909, time 12.39ms, mfu 1.84%
+iter 630: loss 4.6568, time 12.51ms, mfu 1.78%
+iter 640: loss 4.2886, time 12.40ms, mfu 1.73%
+iter 650: loss 4.4035, time 12.35ms, mfu 1.69%
+iter 660: loss 4.5025, time 12.55ms, mfu 1.64%
+iter 670: loss 4.3202, time 12.42ms, mfu 1.61%
+iter 680: loss 4.9668, time 12.50ms, mfu 1.57%
+iter 690: loss 4.5932, time 12.42ms, mfu 1.55%
+iter 700: loss 4.6003, time 12.52ms, mfu 1.52%
+iter 710: loss 4.6310, time 12.55ms, mfu 1.49%
+iter 720: loss 4.9989, time 12.35ms, mfu 1.47%
+iter 730: loss 4.1543, time 12.80ms, mfu 1.45%
+iter 740: loss 3.9666, time 11.83ms, mfu 1.44%
+step 750: train loss 4.5142, val loss 5.0223
+Train/Val loss gap (overfitting indicator): -0.5081
+saving checkpoint to out-shakespeare
+iter 750: loss 4.9678, time 917.50ms, mfu 1.30%
+iter 760: loss 4.5590, time 7.97ms, mfu 1.37%
+iter 770: loss 4.6868, time 10.54ms, mfu 1.38%
+iter 780: loss 4.2920, time 9.30ms, mfu 1.41%
+iter 790: loss 4.1528, time 9.17ms, mfu 1.45%
+iter 800: loss 4.5262, time 9.23ms, mfu 1.47%
+iter 810: loss 4.4773, time 9.10ms, mfu 1.50%
+iter 820: loss 4.4818, time 9.16ms, mfu 1.52%
+iter 830: loss 4.9102, time 10.82ms, mfu 1.52%
+iter 840: loss 4.8250, time 11.31ms, mfu 1.51%
+iter 850: loss 4.4112, time 11.12ms, mfu 1.50%
+iter 860: loss 4.3874, time 11.81ms, mfu 1.48%
+iter 870: loss 4.2125, time 11.80ms, mfu 1.47%
+iter 880: loss 4.7194, time 12.45ms, mfu 1.45%
+iter 890: loss 4.2631, time 12.43ms, mfu 1.43%
+iter 900: loss 4.2846, time 12.44ms, mfu 1.42%
+iter 910: loss 4.9231, time 12.45ms, mfu 1.40%
+iter 920: loss 4.6766, time 12.48ms, mfu 1.39%
+iter 930: loss 4.2208, time 14.63ms, mfu 1.36%
+iter 940: loss 4.5098, time 12.60ms, mfu 1.35%
+iter 950: loss 4.5730, time 12.43ms, mfu 1.34%
+iter 960: loss 4.7033, time 12.44ms, mfu 1.34%
+iter 970: loss 3.8086, time 12.58ms, mfu 1.33%
+iter 980: loss 4.1761, time 12.55ms, mfu 1.32%
+iter 990: loss 4.3722, time 12.51ms, mfu 1.32%
+step 1000: train loss 4.3628, val loss 4.9365
+Train/Val loss gap (overfitting indicator): -0.5736
+saving checkpoint to out-shakespeare
+iter 1000: loss 4.5938, time 925.33ms, mfu 1.19%
+
+=== Training Summary ===
+Final Train Loss: 4.3628
+Final Val Loss:   4.9365
+Final Loss Gap:   -0.5736
+Saved loss curve to out-shakespeare/shakespeare_024_loss_curve.png
+Total training time: 21.91 seconds
+Total parameters: 16.04M
+Final GPU memory usage: 300.24 MB

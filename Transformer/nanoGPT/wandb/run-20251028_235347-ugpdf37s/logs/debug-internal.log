@@ -1,0 +1,11 @@
+{"time":"2025-10-28T23:53:47.534107415-05:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-28T23:53:47.735434386-05:00","level":"INFO","msg":"stream: created new stream","id":"ugpdf37s"}
+{"time":"2025-10-28T23:53:47.735516233-05:00","level":"INFO","msg":"handler: started","stream_id":"ugpdf37s"}
+{"time":"2025-10-28T23:53:47.735642026-05:00","level":"INFO","msg":"stream: started","id":"ugpdf37s"}
+{"time":"2025-10-28T23:53:47.73569192-05:00","level":"INFO","msg":"writer: started","stream_id":"ugpdf37s"}
+{"time":"2025-10-28T23:53:47.735696409-05:00","level":"INFO","msg":"sender: started","stream_id":"ugpdf37s"}
+{"time":"2025-10-28T23:54:34.616483218-05:00","level":"INFO","msg":"stream: closing","id":"ugpdf37s"}
+{"time":"2025-10-28T23:54:34.889675327-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-28T23:54:34.991501745-05:00","level":"INFO","msg":"handler: closed","stream_id":"ugpdf37s"}
+{"time":"2025-10-28T23:54:34.991717922-05:00","level":"INFO","msg":"sender: closed","stream_id":"ugpdf37s"}
+{"time":"2025-10-28T23:54:34.991740265-05:00","level":"INFO","msg":"stream: closed","id":"ugpdf37s"}

@@ -1,0 +1,11 @@
+{"time":"2025-10-29T00:32:50.639247019-05:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-29T00:32:50.842088824-05:00","level":"INFO","msg":"stream: created new stream","id":"ioizbyv5"}
+{"time":"2025-10-29T00:32:50.842497298-05:00","level":"INFO","msg":"handler: started","stream_id":"ioizbyv5"}
+{"time":"2025-10-29T00:32:50.84431011-05:00","level":"INFO","msg":"stream: started","id":"ioizbyv5"}
+{"time":"2025-10-29T00:32:50.844350114-05:00","level":"INFO","msg":"writer: started","stream_id":"ioizbyv5"}
+{"time":"2025-10-29T00:32:50.844413022-05:00","level":"INFO","msg":"sender: started","stream_id":"ioizbyv5"}
+{"time":"2025-10-29T00:33:35.720760343-05:00","level":"INFO","msg":"stream: closing","id":"ioizbyv5"}
+{"time":"2025-10-29T00:33:35.994612734-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-29T00:33:36.113817491-05:00","level":"INFO","msg":"handler: closed","stream_id":"ioizbyv5"}
+{"time":"2025-10-29T00:33:36.113991129-05:00","level":"INFO","msg":"sender: closed","stream_id":"ioizbyv5"}
+{"time":"2025-10-29T00:33:36.114013929-05:00","level":"INFO","msg":"stream: closed","id":"ioizbyv5"}

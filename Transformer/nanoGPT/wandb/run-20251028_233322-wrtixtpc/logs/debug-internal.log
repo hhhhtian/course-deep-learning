@@ -1,0 +1,11 @@
+{"time":"2025-10-28T23:33:23.211939629-05:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-28T23:33:23.400731114-05:00","level":"INFO","msg":"stream: created new stream","id":"wrtixtpc"}
+{"time":"2025-10-28T23:33:23.400853843-05:00","level":"INFO","msg":"handler: started","stream_id":"wrtixtpc"}
+{"time":"2025-10-28T23:33:23.40102117-05:00","level":"INFO","msg":"stream: started","id":"wrtixtpc"}
+{"time":"2025-10-28T23:33:23.401040805-05:00","level":"INFO","msg":"writer: started","stream_id":"wrtixtpc"}
+{"time":"2025-10-28T23:33:23.401064094-05:00","level":"INFO","msg":"sender: started","stream_id":"wrtixtpc"}
+{"time":"2025-10-28T23:33:55.121848512-05:00","level":"INFO","msg":"stream: closing","id":"wrtixtpc"}
+{"time":"2025-10-28T23:33:55.392057112-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-28T23:33:55.496952979-05:00","level":"INFO","msg":"handler: closed","stream_id":"wrtixtpc"}
+{"time":"2025-10-28T23:33:55.497134306-05:00","level":"INFO","msg":"sender: closed","stream_id":"wrtixtpc"}
+{"time":"2025-10-28T23:33:55.497153241-05:00","level":"INFO","msg":"stream: closed","id":"wrtixtpc"}

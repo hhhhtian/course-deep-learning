@@ -1,0 +1,11 @@
+{"time":"2025-10-29T00:42:21.217110291-05:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-29T00:42:21.401355665-05:00","level":"INFO","msg":"stream: created new stream","id":"ig35egla"}
+{"time":"2025-10-29T00:42:21.401499764-05:00","level":"INFO","msg":"stream: started","id":"ig35egla"}
+{"time":"2025-10-29T00:42:21.40146129-05:00","level":"INFO","msg":"handler: started","stream_id":"ig35egla"}
+{"time":"2025-10-29T00:42:21.401525055-05:00","level":"INFO","msg":"writer: started","stream_id":"ig35egla"}
+{"time":"2025-10-29T00:42:21.401572723-05:00","level":"INFO","msg":"sender: started","stream_id":"ig35egla"}
+{"time":"2025-10-29T00:42:51.785957278-05:00","level":"INFO","msg":"stream: closing","id":"ig35egla"}
+{"time":"2025-10-29T00:42:52.058777395-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-29T00:42:52.132414989-05:00","level":"INFO","msg":"handler: closed","stream_id":"ig35egla"}
+{"time":"2025-10-29T00:42:52.132661756-05:00","level":"INFO","msg":"sender: closed","stream_id":"ig35egla"}
+{"time":"2025-10-29T00:42:52.132700637-05:00","level":"INFO","msg":"stream: closed","id":"ig35egla"}

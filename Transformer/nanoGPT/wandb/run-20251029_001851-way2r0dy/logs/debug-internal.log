@@ -1,0 +1,11 @@
+{"time":"2025-10-29T00:18:51.99204191-05:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-29T00:18:52.181372531-05:00","level":"INFO","msg":"stream: created new stream","id":"way2r0dy"}
+{"time":"2025-10-29T00:18:52.181618782-05:00","level":"INFO","msg":"handler: started","stream_id":"way2r0dy"}
+{"time":"2025-10-29T00:18:52.181911858-05:00","level":"INFO","msg":"stream: started","id":"way2r0dy"}
+{"time":"2025-10-29T00:18:52.181948217-05:00","level":"INFO","msg":"writer: started","stream_id":"way2r0dy"}
+{"time":"2025-10-29T00:18:52.181947291-05:00","level":"INFO","msg":"sender: started","stream_id":"way2r0dy"}
+{"time":"2025-10-29T00:19:14.309917528-05:00","level":"INFO","msg":"stream: closing","id":"way2r0dy"}
+{"time":"2025-10-29T00:19:14.556808304-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-29T00:19:14.640251804-05:00","level":"INFO","msg":"handler: closed","stream_id":"way2r0dy"}
+{"time":"2025-10-29T00:19:14.640460593-05:00","level":"INFO","msg":"sender: closed","stream_id":"way2r0dy"}
+{"time":"2025-10-29T00:19:14.640480977-05:00","level":"INFO","msg":"stream: closed","id":"way2r0dy"}

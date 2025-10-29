@@ -1,0 +1,11 @@
+{"time":"2025-10-28T23:29:58.333792944-05:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-28T23:29:58.5417505-05:00","level":"INFO","msg":"stream: created new stream","id":"3qzagros"}
+{"time":"2025-10-28T23:29:58.541842034-05:00","level":"INFO","msg":"handler: started","stream_id":"3qzagros"}
+{"time":"2025-10-28T23:29:58.542034987-05:00","level":"INFO","msg":"stream: started","id":"3qzagros"}
+{"time":"2025-10-28T23:29:58.542058509-05:00","level":"INFO","msg":"writer: started","stream_id":"3qzagros"}
+{"time":"2025-10-28T23:29:58.542064926-05:00","level":"INFO","msg":"sender: started","stream_id":"3qzagros"}
+{"time":"2025-10-28T23:30:28.188473658-05:00","level":"INFO","msg":"stream: closing","id":"3qzagros"}
+{"time":"2025-10-28T23:30:28.448522253-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-28T23:30:28.589460783-05:00","level":"INFO","msg":"handler: closed","stream_id":"3qzagros"}
+{"time":"2025-10-28T23:30:28.589673185-05:00","level":"INFO","msg":"sender: closed","stream_id":"3qzagros"}
+{"time":"2025-10-28T23:30:28.589717429-05:00","level":"INFO","msg":"stream: closed","id":"3qzagros"}

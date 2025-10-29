@@ -21,7 +21,7 @@ import time
 import math
 import pickle
 from contextlib import nullcontext
-
+import matplotlib.pyplot as plt
 import numpy as np
 import torch
 from torch.nn.parallel import DistributedDataParallel as DDP
@@ -192,6 +192,9 @@ if block_size < model.config.block_size:
     model_args['block_size'] = block_size # so that the checkpoint will have the right value
 model.to(device)
 
+# --- 📕 Quantitative Metrics: model size and memory usage ---
+num_params = sum(p.numel() for p in model.parameters())
+
 # initialize a GradScaler. If enabled=False scaler is a no-op
 scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
 
@@ -248,10 +251,13 @@ if wandb_log and master_process:
 
 # training loop
 X, Y = get_batch('train') # fetch the very first batch
+
 t0 = time.time()
+start_time = t0
 local_iter_num = 0 # number of iterations in the lifetime of this process
 raw_model = model.module if ddp else model # unwrap DDP container if needed
 running_mfu = -1.0
+train_curve, val_curve = [], []
 while True:
 
     # determine and set the learning rate for this iteration
@@ -263,6 +269,12 @@ while True:
     if iter_num % eval_interval == 0 and master_process:
         losses = estimate_loss()
         print(f"step {iter_num}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+        # --- 📕 Quantitative Metrics: loss curves and loss gap ---
+        train_curve.append(losses['train'])
+        val_curve.append(losses['val'])
+        gap = losses['train'] - losses['val']
+        print(f"Train/Val loss gap (overfitting indicator): {gap:.4f}")
+        
         if wandb_log:
             wandb.log({
                 "iter": iter_num,
@@ -331,6 +343,31 @@ while True:
     # termination conditions
     if iter_num > max_iters:
         break
+
+if master_process:
+    print("\n=== Training Summary ===")
+    print(f"Final Train Loss: {train_curve[-1]:.4f}")
+    print(f"Final Val Loss:   {val_curve[-1]:.4f}")
+    print(f"Final Loss Gap:   {train_curve[-1] - val_curve[-1]:.4f}")
+
+    # Save loss curves
+    plt.plot(train_curve, label='train')
+    plt.plot(val_curve, label='val')
+    plt.legend(); plt.title("Training vs Validation Loss Curve")
+    run_name = config.get('wandb_run_name', 'default_run')
+    curve_path = os.path.join(out_dir, f"{run_name}_loss_curve.png")
+
+    plt.savefig(curve_path)
+    print(f"Saved loss curve to {curve_path}")
+    total_time_sec = time.time() - start_time
+    print(f"Total training time: {total_time_sec:.2f} seconds")
+
+    print(f"Total parameters: {num_params/1e6:.2f}M")
+    if torch.cuda.is_available():
+        mem_final = torch.cuda.memory_allocated() / (1024**2)
+        print(f"Final GPU memory usage: {mem_final:.2f} MB")
+
+
 
 if ddp:
     destroy_process_group()
