@@ -28,8 +28,9 @@
 * *此阶段的输出张量 (tensor) 形状通常为 `(B, T, C)`*
 ---
 
-## 4. Self-Attention (自注意力机制)
-* (这是模型的核心计算层Block之一)
+## 4. Transformer block
+* Self Attention
+* Layer Norm
 ---
 
 
